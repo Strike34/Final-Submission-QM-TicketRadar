@@ -3,8 +3,7 @@ from .models import Event
 class EventForm(forms.ModelForm):
     class Meta:
         model = Event
-        fields = ['event_name', 'description', 'image', 'ticket_type','price','available_tickets']  # Assuming 'ticket_types' is the correct field name
-
+        fields = ['event_name', 'description', 'image', 'ticket_type','price','available_tickets']  
     def __init__(self, *args, **kwargs):
         super(EventForm, self).__init__(*args, **kwargs)
         for field_name, field in self.fields.items():

@@ -23,3 +23,6 @@ The project can  be accesed in a browser at http://127.0.0.1:8000/
  9. Add funds
  To add funds to an account you have to access the admin panel and  navigatte to Account/Users/(your useranme). Click on the username, and scroll down until you see the Amount box. Enter the ammount  you want to add and click save.
  10. Use the platform
+ 11. Created Accounts
+ Username: eventorganiser, ticketbuyer, ticketresale
+ password: Liliana71(same for all the accounts)
